@@ -22,6 +22,7 @@ public class TestController {
 	
 	@GetMapping
 	public void testTransaction() {
+		System.out.println("T1");
 		taskableService.handleTransactionEx();
 	}
 	
